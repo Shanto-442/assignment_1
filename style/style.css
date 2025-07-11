@@ -311,3 +311,40 @@ input[type="email"], input[type="text"], textarea {
     font-size: 18px;
     font-weight: medium;
 }
+/* Footer Styles */
+.footer {
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+.footer .link {
+    margin: 0 15px;
+    color: #4E47FF;
+    text-decoration: none;
+}
+.footer .link:hover {
+    text-decoration: underline;
+}
+.last-logo {
+    font-size: 100px;
+    font-weight: black;
+    color: #4E47FF;
+    margin-bottom: 5px;
+}
+.last-logo-para {
+    display: flex;
+    align-items: center;
+    max-width: 530px;
+    max-height: 50px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.last-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+    color: #252432;
+}
