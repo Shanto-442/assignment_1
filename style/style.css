@@ -7,25 +7,30 @@
   line-height: 150%;
   color: #4E47FF;
 }
+.heading-font{
+    font-family: "Raleway", sans-serif;
+}
 .normal-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.normal-font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 /* shared style */
 .btn-primary {
     background-color: #4E47FF;
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: bold;
     padding: 12px 36px;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-    max-width: 132px;
-    max-height: 38px;
+    max-height: 48px;
 }
 .btn-hero {
   background-color: #4E47FF;
@@ -38,7 +43,7 @@
     border-radius: 10px;
     cursor: pointer;
     max-width: 174px;
-    max-height: 48px;
+   
 }
 .primary-color {
     color: #4E47FF;
@@ -90,4 +95,74 @@ nav a {
 .hero {
     justify-content: center;
     text-align: center;
+}
+
+/* See it in Action style */
+.action-header {
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.action-text {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: .5;
+}
+.action-image {
+    max-width: 403px;
+    max-height: 328px;
+    border-radius: 48px;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 145px 150px;
+
+}
+.section-header-text {
+    margin: 62.5px 623 px 62.5px 0px;
+    text-align: left;
+}
+
+/* branding section style */
+/* ----------------------------------------------- */
+.branding-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.branding-container {
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    max-height: 306px;
+    border-radius: 24px;
+    padding: 50px 145px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.branding-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.branding-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.figure {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.figure-text {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .5;
+    margin-top: 0px;
+    font-family: "Inter", sans-serif;
 }
